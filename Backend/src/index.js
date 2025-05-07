@@ -13,7 +13,7 @@ const port = process.env.PORT || 5000;
 app.use(express.json());
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://email-marketing-sequene-frontend.onrender.com",
     methods: ["GET", "POST"],
   })
 );
